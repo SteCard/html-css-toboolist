@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    margin-left: 10px;
+}
+
+#top-logo {
+    vertical-align: bottom;
+}
+
+h1 {
+    display: inline;
+    font-family: sans-serif;
+}
+
+.opacity-6{
+    opacity:.6;
+}
+
+.bg_body {
+    background-color: #F6F8F9;
+}
+
+main {
+    height: 100%;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.container .top-container,
+.container .body-container {
+    padding: 12px 30px;
+}
+
+.container .body-container {
+    padding-top: 20px
+}
+
+
+button {
+    border-color: transparent;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.primary {
+    color: white;
+    background-color: #47ADF1;
+
+}
+
+.disabled{
+    color: grey;
+    background-color: transparent;
+    border: 1px solid grey;
+    opacity: .6;
+}
+
+
+/*LIST ELEMENTS*/
+ul{
+    list-style-type: none;
+}
+
+.body-container ul li{
+    margin-bottom: 25px;
+}
+
+.body-container .tag {
+    color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: .6rem;
+    padding: 4px 8px;
+    display: inline-block;
+}
+
+
+.tag.ed {
+    background-color:  #47ADF1;
+}
+
+.tag.goal {
+    background-color: #9C72E4;
+}
+
+.tag.rec {
+    background-color: #64C0A9;
+}
+
+.tag.mob {
+    background-color: #F29E33;
+}
+
+.tag.web {
+    background-color: #D863A1;
+}
+
+.tag.sale {
+    background-color: #B0C926;
+}
+
+.green_check{
+    color: green;
+}
+
+.red_cross{
+    color: red;
+}
