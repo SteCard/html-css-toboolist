@@ -11,51 +11,45 @@
     <!--Logo + header-->
     <header>
         <img src="./img/Logo.png" alt="logo" id="top-logo">
-        <h1 >Toboolist</h1>
+        <span class="logo_text">Toboolist</span>
     </header>
+    <!--Fine header-->
     <!--MAIN-->
     <main>
         <div class="container">
+            <!--TOP: PULSANTI--> 
             <div class="top-container">
                 <button class="primary">Add Task</button>
                 <button class="disabled">Add Section</button>
             </div>
+            <!--FINE TOP-->
             <hr class="bg_body" style="border: none; height:3px">
+            <!--BOTTOM: LIST-->
             <div class="body-container">
                 <ul>
                     <li><strong> &#9207; New Task</strong>
-                        <div> &check; Quarterly Newsletter
-                            <span class="tag ed">Editorial</span>
-                        </div>
+                        <ul>
+                            <li><span class="circle green">&check;</span> Quarterly Newsletter<span class="tag ed">Editorial</span></li>
+                        </ul>
                     </li>
                     <li><strong> &#9207; Today</strong>
-                        <div> <span class="green_check">&check;</span> Rectruiting blog post
-                            <span class="tag ed">Editorial</span>
-                        </div>
-                        <div> <span class="green_check">&check;</span> Mobile app launch
-                            <span class="tag goal">Q1 Goals</span>
-                        </div>
-                        <div> <span class="red_cross">&Cross;</span> Interview John H.
-                            <span class="tag rec">Recruiting</span>
-                        </div>
-                        <div> <span class="green_check">&check;</span> Summit update to mobile storefronts
-                            <span class="tag mob">Mobile</span>
-                        </div>
+                        <ul>
+                            <li><span class="circle green">&check;</span> Rectruiting blog post<span class="tag ed">Editorial</span></li>
+                            <li><span class="circle green">&check;</span> Mobile app launch<span class="tag goal">Q1 Goals</span></li>
+                            <li><span class="circle red">&Cross;</span> Interview John H.<span class="tag rec">Recruiting</span></li>
+                            <li><span class="circle green">&check;</span> Summit update to mobile storefronts<span class="tag mob">Mobile</span></li>
+                        </ul>
                     </li>
                     <li><strong> &#9207; Upcoming</strong>
-                        <div> <span class="red_cross">&Cross;</span> Schedule meeting with Alex</div>
-                        <div> <span class="green_check">&check;</span> Homepage refresh
-                            <span class="tag web">Website</span>
-                        </div>
-                        <div> <span class="green_check">&check;</span> Onboard new Sales team members
-                            <span class="tag sale">Sales</span>
-                        </div>
-                        <div> <span class="green_check">&check;</span> Review editorial calendar
-                            <span class="tag ed">Editorial</span>
-                        </div>
+                        <ul>
+                            <li><span class="circle red">&Cross;</span> Schedule meeting with Alex</li>
+                            <li><span class="circle green">&check;</span> Homepage refresh<span class="tag web">Website</span></li>
+                            <li><span class="circle green">&check;</span> Review editorial calendar<span class="tag ed">Editorial</span></li>
+                        </ul>
                     </li>
                 </ul>        
             </div>
+            <!--FINE BOTTOM-->
         </div>
     </main>
     <!--FINE MAIN-->

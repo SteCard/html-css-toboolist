@@ -4,65 +4,71 @@
     box-sizing: border-box;
 }
 
-header{
-    background-color: white;
-    margin-left: 10px;
-}
-
-#top-logo {
-    vertical-align: bottom;
-}
-
-h1 {
-    display: inline;
+.bg_body {
+    background-color: #F6F8F9;
     font-family: sans-serif;
 }
 
-.opacity-6{
-    opacity:.6;
+/*HEADER*/
+header{
+    background-color: white;
+    margin-bottom: 50px;
+    height: 100px;
+    padding: 20px 10px;
 }
 
-.bg_body {
-    background-color: #F6F8F9;
+#top-logo {
+    vertical-align: middle;
+    height: 100%;
 }
 
+.logo_text {
+    font-size: 45px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+/*FINE HEADER*/
+
+/*MAIN*/
 main {
     height: 100%;
 }
 
 .container {
     background-color: white;
-    width: 100%;
+    width: 60%;
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin: 0 auto;
 }
 
-.container .top-container,
-.container .body-container {
-    padding: 12px 30px;
+.top-container{
+    border-bottom: 1px solid white;
 }
 
-.container .body-container {
+.top-container,
+.body-container {
+    padding: 20px 100px;
+}
+
+.body-container {
     padding-top: 20px
 }
 
 
 button {
-    border-color: transparent;
-    line-height: 2.5;
     padding: 0 20px;
+    border-radius: 10px;
+
+    line-height: 2.5;
     font-size: 12px;
     text-align: center;
-    border-radius: 5px;
     font-weight: bold;
 }
 
 .primary {
     color: white;
     background-color: #47ADF1;
+    border: 1px solid #47ADF1;
 
 }
 
@@ -79,19 +85,40 @@ ul{
     list-style-type: none;
 }
 
-.body-container ul li{
-    margin-bottom: 25px;
+li {
+    padding: 15px 0px;
+}
+/*FINE LIST ELEMENTS*/
+
+/*CHECK-CROSS*/
+.circle {
+    padding: 0px 5px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
-.body-container .tag {
+.green{
+    border: 1px solid green;
+    color: green;
+}
+
+.red{
+    border: 1px solid red;
+    color: red;
+}
+/*FINE CHECK-CROSS*/
+
+
+/*TAG*/
+.tag{
     color: white;
     border-radius: 12px;
     font-weight: bold;
-    font-size: .6rem;
-    padding: 4px 8px;
+    font-size: 9px;
+    padding: 6px 8px;
     display: inline-block;
+    margin-left: 10px;
 }
-
 
 .tag.ed {
     background-color:  #47ADF1;
@@ -116,11 +143,4 @@ ul{
 .tag.sale {
     background-color: #B0C926;
 }
-
-.green_check{
-    color: green;
-}
-
-.red_cross{
-    color: red;
-}
+/*FINE TAG*/
